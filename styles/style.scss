@@ -1,17 +1,9 @@
-$primaryBtn : yellow;
 
-
-
-header {
-    background: lightblue;
-    display: flex;
-    justify-content: center;
+@import "./variables";
+@import "./header";
+.contact {
+  @extend header;
+  background: yellow;
+  width: 100% - 20%;
 }
 
-body button {
-    background: yellow;
-}
-
-.contact button {
-    background: yellow;
-}

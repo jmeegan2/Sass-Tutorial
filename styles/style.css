@@ -1,18 +1,19 @@
-header {
+header, .contact {
+  height: 100vh;
+  color: orange;
   background: lightblue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-body button {
+header button, .contact button {
   background: yellow;
 }
 
-.contact button {
+header button::after, .contact button::after {
+  content: "boi";
+}
+
+.contact {
   background: yellow;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
