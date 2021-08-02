@@ -1,0 +1,18 @@
+header {
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body button {
+  background: yellow;
+}
+
+.contact button {
+  background: yellow;
+}
+/*# sourceMappingURL=style.css.map */
